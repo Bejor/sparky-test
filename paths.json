@@ -5,6 +5,6 @@
     "/content/sparky-test/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/sparky-test/"
+    "/content/aem-boilerplate/"
   ]
 }
