@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url';
 import { compileDirectoriesInPlace, watchAndCompile } from './build/sass-util.js';
 
 console.log(import.meta.url);
-return false;
 
 const IGNORED_FILES = ['_breakpoints.scss', '_typography.scss']; // list of files to ignore from compilation
 const SASS_FOLDERS = ['styles', 'blocks']; // list of folders to compile
