@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/sparky-test/:/",
-    "/content/sparky-test/configuration:/.helix/config.json",
-    "/content/sparky-test/metadata:/metadata.json"
+    "/content/sparky-test-webpack/:/",
+    "/content/sparky-test-webpack/configuration:/.helix/config.json",
+    "/content/sparky-test-webpack/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/sparky-test-webpack/"
   ]
 }

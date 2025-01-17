@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p15646-e37941.adobeaemcloud.com/bin/franklin.delivery/bejor/sparky-test/main"
+    url: "https://author-p136111-e1367719.adobeaemcloud.com/bin/franklin.delivery/bejor/sparky-test/main"
     type: "markup"
     suffix: ".html"
