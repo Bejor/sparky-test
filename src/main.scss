@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//FontAwesome Integration
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+@import './blocks/**/*.scss';
+@import './site/**/*.scss';

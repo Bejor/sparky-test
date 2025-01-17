@@ -11,7 +11,10 @@
     "build:json:models": "merge-json-cli -i \"models/_component-models.json\" -o \"component-models.json\"",
     "build:json:definitions": "merge-json-cli -i \"models/_component-definition.json\" -o \"component-definition.json\"",
     "build:json:filters": "merge-json-cli -i \"models/_component-filters.json\" -o \"component-filters.json\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "up": "npm run watch & aem up"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,8 @@
   "homepage": "https://github.com/adobe/aem-boilerplate#readme",
   "devDependencies": {
     "@babel/eslint-parser": "7.25.9",
+    "autoprefixer": "^10.4.20",
+    "css-loader": "^7.1.2",
     "eslint": "8.57.1",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.31.0",
@@ -32,8 +37,25 @@
     "eslint-plugin-xwalk": "github:adobe-rnd/eslint-plugin-xwalk#v0.1.2",
     "husky": "9.1.1",
     "merge-json-cli": "1.0.4",
+    "mini-css-extract-plugin": "^2.9.2",
+    "node-sass-glob-importer": "^5.3.3",
     "npm-run-all": "4.1.5",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.83.4",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
     "stylelint": "16.12.0",
-    "stylelint-config-standard": "36.0.1"
+    "stylelint-config-standard": "36.0.1",
+    "tailwindcss": "^3.4.17",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "slick-carousel": "^1.8.1",
+    "tailwind-fontawesome": "^0.7.1"
   }
 }

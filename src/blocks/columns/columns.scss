@@ -1,0 +1,25 @@
+.columns {
+    >div {
+        @apply flex flex-col;
+
+        @screen desktop {
+            @apply flex-row gap-6 items-center;
+        }
+    }
+
+    img {
+        @apply w-full;
+    }
+
+    >div>div {
+        @apply order-1;
+    }
+
+    >div>.columns-img-col {
+        @apply order-first;
+
+        img {
+            @apply block;
+        }
+    }
+}

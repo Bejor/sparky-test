@@ -1,0 +1,32 @@
+html,
+body {
+    @apply font-body text-default m-0 p-0 font-normal;
+}
+
+body {
+    @apply mx-auto w-full pt-10;
+
+    &>.root>.cmp-container {
+        @apply flex flex-col overflow-x-hidden;
+    }
+}
+
+* {
+    @apply box-border;
+}
+
+.section {
+    @apply max-w-full mx-auto px-outer-spacing;
+
+    @screen tablet {
+        @apply max-w-screen-tablet;
+    }
+
+    @screen desktop {
+        @apply max-w-screen-site px-desktop-outer-spacing;
+    }
+}
+
+a {
+    @apply text-primary underline;
+}
